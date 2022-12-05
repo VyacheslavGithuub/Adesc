@@ -1,0 +1,17 @@
+ @media screen and (max-width: 960px) {
+
+   /* Header */
+   header {
+     display: flex;
+     justify-content: space-between;
+     font-size: 14px;
+   }
+
+   .header_auth {
+     width: 270px;
+   }
+
+   .header_menu {
+     display: none;
+   }
+ }

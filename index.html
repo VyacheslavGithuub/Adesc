@@ -4,15 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/style.css" />
-
+    <link rel="stylesheet" href="./src/global.css" />
+    <link rel="stylesheet" href="./src/css/desktop.css">
+    <link rel="stylesheet" href="./src/css/tablet.css">
+    <link rel="stylesheet" href="./src/css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./src/img/IconPreview.png" />
     <title>Adesk</title>
   </head>
 
   <body>
+
     <header>
-      <img src="./src/img/IconPreview.png" alt="Icon" />
+      <img src="./src/img/IconLogo.png" alt="Icon" />
+      <ul class="header_menu">
+        <li>Внедрить под ключ</li>
+        <li>Отзывы</li>
+        <li>Цены</li>
+        <li>Блог</li>
+        <li>Помощь</li>
+      </ul>
+      <div class="header_auth">
+        <button class="auth_login">Войти</button>
+        <button class="auth_register">Зарегистрироваться</button>
+      </div>
     </header>
+    
   </body>
   <script src="./src/script.js"></script>
 </html>

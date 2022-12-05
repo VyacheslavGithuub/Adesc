@@ -1,0 +1,67 @@
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background: none;
+  border: none;
+  border-radius: 4px;
+
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: rgb(221, 221, 221);
+  width: 100%;
+  max-width: 1920px;
+  padding: 0px 30px 30px 30px;
+}
+
+/* Header */
+header {
+  display: grid;
+  grid-template-columns: 200px 1fr 330px;
+  align-items: center;
+  height: 80px;
+  font-size: 18px;
+}
+
+.header_menu {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_auth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth_login {
+  width: 92px;
+  height: 42px;
+  font-size: 18px;
+  color: black;
+  border: 1px solid;
+}
+
+.auth_register {
+  width: 221px;
+  font-size: 18px;
+  height: 42px;
+  color: white;
+  background-color: #0F8FF9;
+}
