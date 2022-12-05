@@ -65,3 +65,6 @@ header {
   color: white;
   background-color: #0F8FF9;
 }
+.burger_menu {
+  display: none;
+}
