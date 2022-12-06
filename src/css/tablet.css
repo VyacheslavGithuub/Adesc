@@ -1,5 +1,7 @@
  @media screen and (max-width: 960px) {
-
+  h1 {
+      font-size: 60px;
+    }
    /* Header */
    header {
      display: flex;
@@ -14,4 +16,15 @@
    .header_menu {
      display: none;
    }
- }
+  /* Main */
+  .block_description {
+      margin: 120px auto 100px;
+  }
+  /* Tariff block */
+  .tariff_block {
+    gap: 20px;
+  }
+  .tariff_item {
+    width: calc(50% - 10px);
+  }
+}

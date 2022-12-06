@@ -1,4 +1,7 @@
 @media screen and (max-width:600px) {
+  h1 {
+      font-size: 40px;
+    }
   body {
     padding: 0px 15px 15px 15px;
   }
@@ -16,4 +19,19 @@
   .burger_menu {
     display: block;
   }
+/* Main */
+.block_description {
+  margin: 100px auto 50px;
+}
+
+.block_description>h1 {
+  margin-bottom: 15px;
+}
+ /* Tariff block */
+ .tariff_block {
+  gap: 10px;
+}
+ .tariff_item {
+  width: 100%;
+}
 }

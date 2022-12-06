@@ -1,5 +1,8 @@
 @media screen and (max-width: 1200px) {
-
+  h1 {
+      font-weight: 600;
+      font-size: 55px;
+    }
   /* Header */
   header {
     display: grid;
@@ -19,5 +22,16 @@
   .auth_register {
     width: 170px;
     font-size: 16px;
+  }
+/* Main */
+  .block_description {
+    margin: 130px auto 100px;
+  }
+/* Tariff block */
+  .tariff_block {
+    gap: 15px;
+  }
+  .tariff_item {
+    width: calc(100% / 3 - 10px);
   }
 }
