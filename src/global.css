@@ -10,6 +10,10 @@ h1 {
   font-weight: 600;
   font-size: 65px;
 }
+h2{
+  font-weight: 600;
+  font-size: 55px;
+}
 p {
   font-size: 14px;
 }
@@ -25,7 +29,7 @@ button {
   background: none;
   border: none;
   border-radius: 4px;
-
+  cursor: pointer;
 }
 
 html {
@@ -264,4 +268,64 @@ main {
   border-radius: 4px;
   background-color: #FFFFFF;
   border: 2px solid gray;
+}
+/* consultation_block */
+.consultation_block{
+  width: 100%;
+  color: #051534;
+  border-radius: 16px;
+  background-color: #F9F9F9;
+  text-align: center;
+  padding: 120px 0px;
+}
+.consultation_block_ul {
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+.consultation_block_li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.consultation_block_numbr{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+
+}
+.consultation_blur {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  filter: blur(7.5px);
+}
+.consultation_numbr{
+  z-index: 5;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+  position: absolute;
+  top: calc(50% - 19px);
+  left: calc(50% - 7px);
+  color: #555A64;
+}
+.consultation_title{
+  width: 100%;
+}
+.consultation_block button {
+  width: 334px;
+  height: 60px;
+  background: #051534;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.consultation_block h2 {
+  max-width: 755px;
+  margin: 0 auto;
 }

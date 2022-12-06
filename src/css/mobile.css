@@ -38,4 +38,17 @@
 .demo_tariff_description>h3{
   font-size: 30px;
 }
+/*  */
+.consultation_block{
+  font-size: 18px;
+  padding: 60px 20px;
+}
+.consultation_block h2{
+  font-size: 30px;
+}
+.consultation_block button {
+  width: 248px;
+  height: 42px;
+  font-size: 18px;
+}
 }

@@ -1,5 +1,3 @@
-let tariff = document.querySelector(".tariff_block");
-
 let tariff_cards = [
   {
     title: "Тариф «Первый»",
@@ -102,6 +100,9 @@ let tariff_cards = [
     button: "Протестировать"
   }
 ];
+// куда всё записываем
+let tariff = document.querySelector(".tariff_block");
+
 // Создание карточек тарифов
 for (const item of tariff_cards) {
   let tariff_card = document.createElement("div")
@@ -176,4 +177,42 @@ for (const item of tariff_cards) {
   tariff_card.append(card_button);
 
   tariff.append(tariff_card)
+}
+///////////////////////////////////////
+// consultation_block
+
+const consultationArr = [
+  {id: 1, title: "Вы получите полностью работоспособную систему управленческого учета"},
+  {id: 2, title: "Вам не придется тратить время на самостоятельное изучение тонкостей"},
+  {id: 3, title: "Мы будем сопровождать вас в течение первых месяцев работы"}
+]
+// Получаем списов в который добавим данных ul
+let consultation_list = document.querySelector(".consultation_block_ul");
+for (const item of consultationArr) {
+  // Создаём li
+  let li = document.createElement("li")
+  li.classList.add("consultation_block_li")
+
+  // left block
+  const left_block = document.createElement("div")
+  left_block.classList.add("consultation_block_numbr")
+  li.append(left_block)
+
+  // id / blur in left block
+  const id = document.createElement("div")
+  id.classList.add("consultation_numbr")
+  id.innerHTML = item.id
+  left_block.append(id)
+
+  const blur_block = document.createElement("div")
+  blur_block.classList.add("consultation_blur")
+  left_block.append(blur_block)
+// title
+  const title = document.createElement("div")
+  title.classList.add("consultation_title")
+  title.innerHTML =  item.title
+  li.append(title)
+
+// li помещаем в ul
+  consultation_list.append(li)
 }
