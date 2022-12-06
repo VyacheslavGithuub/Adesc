@@ -34,4 +34,8 @@
  .tariff_item {
   width: 100%;
 }
+/*demo_tariff_description */
+.demo_tariff_description>h3{
+  font-size: 30px;
+}
 }

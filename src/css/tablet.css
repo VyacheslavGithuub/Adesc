@@ -27,4 +27,23 @@
   .tariff_item {
     width: calc(50% - 10px);
   }
+/* block_demo_tariff_description */
+  .block_demo_tariff{
+    margin: 100px 0px 120px 0px;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .demo_tariff_icon img {
+    margin-right: 0px;
+    margin-bottom: 37px;
+  }
+  .demo_tariff_description{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .domo_tariff_bootom{
+    margin-top: 20px;
+  }
 }

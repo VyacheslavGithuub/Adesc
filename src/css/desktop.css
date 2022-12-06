@@ -34,4 +34,9 @@
   .tariff_item {
     width: calc(100% / 3 - 10px);
   }
+
+/* block_demo_tariff_description */
+.block_demo_tariff_description{
+  margin: 100px 0px 120px 0px;
+}
 }
