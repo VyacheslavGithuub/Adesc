@@ -88,4 +88,9 @@
   .footer_hr{
     display: none;
   }
+  /* FAQ */
+  .faq_container{
+    margin: 120px 0px;
+    font-size: 18px;
+  }
 }

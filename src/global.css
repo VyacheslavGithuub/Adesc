@@ -335,6 +335,55 @@ header a {
   max-width: 755px;
   margin: 0 auto;
 }
+/* FAQ */
+.faq_container{
+  margin: 200px 0px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.faq > h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.faq_accordion{
+  cursor: pointer;
+  width: 100%;
+  max-width: max-content;
+  background-color: #0F8FF9;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0px 20px;
+  border-radius: 0px 12px 12px 12px; 
+}
+.faq_content{
+  max-height: 0;
+  overflow: hidden; 
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+.faq_content_body{
+  display: flex;
+  justify-content: right;
+}
+.faq_message{
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #F9F9F9;
+  border-radius: 12px 0px 12px 12px;
+  align-self: flex-end;
+}
+.faq_icon{
+  width: 50px;
+  height: 50px;
+  background: url(./img/IconAvatar.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
 /* Footer */
 footer{
   width: 100%;
