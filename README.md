@@ -1,8 +1,6 @@
 # Landing page
 https://vyacheslavgithuub.github.io/Adesc/
 
-https://vyacheslavgithuub.github.io/books/
-
 # Start project
 
 ### git clone https://github.com/VyacheslavGithuub/Adesc.git
