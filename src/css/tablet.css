@@ -1,7 +1,10 @@
  @media screen and (max-width: 960px) {
   h1 {
-      font-size: 60px;
-    }
+    font-size: 60px;
+  }
+  h2{
+    font-size: 50px ;
+  }
    /* Header */
    header {
      display: flex;
@@ -45,5 +48,44 @@
   }
   .domo_tariff_bootom{
     margin-top: 20px;
+  }
+  /* footer */
+  .footer_logo_block{
+    order: 1;
+  }
+  .footer_social_networks{
+    order: 2;
+  }
+  .footer_main_block{
+    order: 3;
+    width: 100%;
+    margin: 50px 0px 40px;
+    flex-wrap: wrap;
+  }
+  .footer_ul{
+    margin-bottom: 40px;
+  }
+  .footer_ul:nth-last-child(1){
+    margin-bottom: 0px;
+  }
+  .footer_documents{
+    order: 4;
+    width: 100%;
+  }
+  .footer_documents a:nth-child(-n+2){
+    color: white;
+  } 
+  .INN{
+    display: inline-block;
+  }
+
+  .footer_bank{
+    display: none;
+  }
+  .footer_store{
+    display: none;
+  }
+  .footer_hr{
+    display: none;
   }
 }
